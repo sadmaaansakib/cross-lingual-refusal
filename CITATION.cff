@@ -1,10 +1,10 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use this code in your research, please cite it as below."
 title: "Cross-Lingual Refusal Directions: Representation Analysis of English and Bangla in Instruction-Tuned LLMs"
 version: 1.0.0
 date-released: 2026-10-14
 license: MIT
-repository-code: "https://github.com/YOUR_GITHUB_USERNAME/cross-lingual-refusal"
+repository-code: "https://github.com/sadmaaansakib/cross-lingual-refusal"
 abstract: >
   A reproducible research scaffold for analyzing whether harmful-versus-harmless
   refusal representations align between English and Bangla in frozen

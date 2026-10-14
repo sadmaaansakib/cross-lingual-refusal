@@ -1,6 +1,6 @@
-﻿# Cross-Lingual Refusal Directions
+# Cross-Lingual Refusal Directions
 
-[![CI](https://github.com/YOUR_GITHUB_USERNAME/cross-lingual-refusal/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/cross-lingual-refusal/actions/workflows/ci.yml)
+[![CI](https://github.com/sadmaaansakib/cross-lingual-refusal/actions/workflows/ci.yml/badge.svg)](https://github.com/sadmaaansakib/cross-lingual-refusal/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
@@ -97,7 +97,7 @@ cross-lingual-refusal/
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/cross-lingual-refusal.git
+git clone https://github.com/sadmaaansakib/cross-lingual-refusal.git
 cd cross-lingual-refusal
 
 python3 -m venv .venv
@@ -370,7 +370,7 @@ If you use this code, please cite:
 @software{cross_lingual_refusal_2026,
   title  = {Cross-Lingual Refusal Directions: Representation Analysis of English and Bangla in Instruction-Tuned LLMs},
   year   = {2026},
-  url    = {https://github.com/YOUR_GITHUB_USERNAME/cross-lingual-refusal},
+  url    = {https://github.com/sadmaaansakib/cross-lingual-refusal},
   license = {MIT}
 }
 ```
