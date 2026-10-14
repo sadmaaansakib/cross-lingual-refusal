@@ -1,0 +1,12 @@
+{
+  "source_stem": "Qwen2.5-7B-Instruct_en_train",
+  "category_a": "science",
+  "category_b": "daily_life",
+  "target_stem": "Qwen2.5-7B-Instruct_en_validation",
+  "layer": 2,
+  "unrelated_direction_transfer_to_harmfulness": {
+    "balanced_accuracy": 0.44,
+    "roc_auc": 0.4608
+  },
+  "note": "Compare this transfer score against the real harmfulness direction's transfer score on the same target split. It should be noticeably lower if the effect is specific to harmfulness rather than generic semantic separation."
+}

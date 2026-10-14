@@ -1,0 +1,28 @@
+﻿cff-version: 1.2.0
+message: "If you use this code in your research, please cite it as below."
+title: "Cross-Lingual Refusal Directions: Representation Analysis of English and Bangla in Instruction-Tuned LLMs"
+version: 1.0.0
+date-released: 2026-10-14
+license: MIT
+repository-code: "https://github.com/YOUR_GITHUB_USERNAME/cross-lingual-refusal"
+abstract: >
+  A reproducible research scaffold for analyzing whether harmful-versus-harmless
+  refusal representations align between English and Bangla in frozen
+  instruction-tuned language models. Uses difference-in-means direction estimation
+  and cross-language cosine similarity with multiple negative controls.
+keywords:
+  - large language models
+  - refusal
+  - safety
+  - cross-lingual
+  - representation analysis
+  - Bangla
+  - interpretability
+references:
+  - type: article
+    authors:
+      - family-names: Arditi
+        given-names: Andy
+    title: "Refusal in Language Models Is Mediated by a Single Direction"
+    year: 2024
+    url: "https://arxiv.org/abs/2406.11717"

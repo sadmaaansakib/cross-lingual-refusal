@@ -1,0 +1,27 @@
+{
+  "stem": "Meta-Llama-3-8B-Instruct_en_train",
+  "layer": 23,
+  "num_topic_components_removed": 5,
+  "harmless_categories_used": [
+    "communication",
+    "creative",
+    "culture",
+    "daily_life",
+    "education",
+    "environment",
+    "health_general",
+    "reasoning",
+    "science",
+    "technology"
+  ],
+  "original_balanced_accuracy": {
+    "balanced_accuracy": 1.0,
+    "roc_auc": 1.0
+  },
+  "topic_residualized_balanced_accuracy": {
+    "balanced_accuracy": 1.0,
+    "roc_auc": 1.0
+  },
+  "balanced_accuracy_retained_fraction": 1.0,
+  "note": "balanced_accuracy_retained_fraction near 1.0 means separability survives topic removal (evidence of harm-specific structure); near 0.0 means the original signal was almost entirely explained by topic identity. Because the topic subspace is fit only from harmless-category variation, this is a conservative test -- it can only remove topic structure that is visible without using label information at all."
+}

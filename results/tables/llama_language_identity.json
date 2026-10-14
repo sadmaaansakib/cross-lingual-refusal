@@ -1,0 +1,10 @@
+{
+  "en_stem": "Meta-Llama-3-8B-Instruct_en_train",
+  "bn_stem": "Meta-Llama-3-8B-Instruct_bn_train",
+  "layer": 23,
+  "language_direction_self_separation": {
+    "balanced_accuracy": 1.0,
+    "roc_auc": 1.0
+  },
+  "note": "self_separation should be near-perfect (it is fit and evaluated on the same language-labeled data); that is expected and not evidence of anything about harmfulness. The cosine values below are the actual diagnostic."
+}

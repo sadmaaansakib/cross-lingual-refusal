@@ -1,0 +1,26 @@
+﻿---
+name: Feature Request
+about: Propose a new analysis module or extension within the project scope
+title: "[FEATURE] "
+labels: enhancement
+assignees: ''
+---
+
+## Summary
+A brief description of the feature.
+
+## Motivation
+Why is this analysis useful? How does it relate to cross-lingual refusal representations?
+
+## Proposed Implementation
+Describe your proposed approach (algorithm, new script, config changes, etc.).
+
+## Alternatives Considered
+What other approaches did you consider and why did you prefer this one?
+
+## Safety Considerations
+Does this change interact with harmful content? How will the scope be kept to
+approved benchmark data?
+
+## Additional Context
+Links to relevant papers, prior work, or example outputs.

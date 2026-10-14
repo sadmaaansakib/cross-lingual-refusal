@@ -1,0 +1,20 @@
+{
+  "target_stem": "Qwen2.5-7B-Instruct_en_validation",
+  "layer": 2,
+  "hidden_size": 3584,
+  "num_directions": 1000,
+  "seed": 42,
+  "balanced_accuracy": {
+    "mean": 0.49852,
+    "std": 0.12202708551792918,
+    "p2_5": 0.24,
+    "p97_5": 0.72
+  },
+  "note": "Compare an observed direction's balanced accuracy / AUC against this null distribution's upper percentile rather than against 0.5 alone; finite-sample median-split scoring can be biased away from chance.",
+  "roc_auc": {
+    "mean": 0.5019248000000001,
+    "std": 0.15858178490911243,
+    "p2_5": 0.192,
+    "p97_5": 0.78564
+  }
+}

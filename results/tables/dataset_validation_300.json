@@ -1,0 +1,45 @@
+{
+  "rows": 250,
+  "pairs": 125,
+  "by_split_label": {
+    "test": {
+      "harmless": 10,
+      "harmful": 10
+    },
+    "train": {
+      "harmless": 90,
+      "harmful": 90
+    },
+    "validation": {
+      "harmless": 25,
+      "harmful": 25
+    }
+  },
+  "categories": [
+    "communication",
+    "creative",
+    "culture",
+    "cyber_safety",
+    "daily_life",
+    "dangerous_substances",
+    "education",
+    "environment",
+    "fraud",
+    "general_safety",
+    "health_general",
+    "misinformation_safety",
+    "privacy",
+    "reasoning",
+    "regulated_goods",
+    "science",
+    "self_harm_safety",
+    "technology",
+    "violence",
+    "weapons"
+  ],
+  "errors": [],
+  "warnings": [
+    "Some translations are not marked human_verified"
+  ],
+  "ok": true
+}

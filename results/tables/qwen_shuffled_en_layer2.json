@@ -1,0 +1,20 @@
+{
+  "source_stem": "Qwen2.5-7B-Instruct_en_train",
+  "target_stem": "Qwen2.5-7B-Instruct_en_validation",
+  "layer": 2,
+  "num_permutations": 1000,
+  "seed": 42,
+  "balanced_accuracy": {
+    "mean": 0.49964000000000003,
+    "std": 0.161145494507293,
+    "p2_5": 0.16,
+    "p97_5": 0.8
+  },
+  "note": "The correctly labeled direction's transfer score (from analyze_directions.py / compare_languages.py) should clear this distribution's upper percentile to be considered evidence of real harmfulness-related structure rather than an estimator artifact.",
+  "roc_auc": {
+    "mean": 0.5022064,
+    "std": 0.21333542481041445,
+    "p2_5": 0.07828,
+    "p97_5": 0.9024399999999999
+  }
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "layer": 0,
+    "cosine": 0.2176453322172165,
+    "ba_en_en": 0.88,
+    "ba_bn_bn": 0.84,
+    "ba_en_bn": 0.76,
+    "ba_bn_en": 0.76,
+    "transfer_mean": 0.76
+  },
+  {
+    "layer": 1,
+    "cosine": 0.16860997676849365,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.84,
+    "ba_en_bn": 0.64,
+    "ba_bn_en": 0.84,
+    "transfer_mean": 0.74
+  },
+  {
+    "layer": 2,
+    "cosine": 0.14984314143657684,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.84,
+    "ba_en_bn": 0.72,
+    "ba_bn_en": 0.8,
+    "transfer_mean": 0.76
+  },
+  {
+    "layer": 3,
+    "cosine": 0.14177930355072021,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.8,
+    "ba_en_bn": 0.64,
+    "ba_bn_en": 0.68,
+    "transfer_mean": 0.66
+  },
+  {
+    "layer": 4,
+    "cosine": 0.25724175572395325,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.8,
+    "ba_en_bn": 0.72,
+    "ba_bn_en": 0.76,
+    "transfer_mean": 0.74
+  },
+  {
+    "layer": 5,
+    "cosine": 0.35598164796829224,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.84,
+    "ba_en_bn": 0.72,
+    "ba_bn_en": 0.84,
+    "transfer_mean": 0.78
+  },
+  {
+    "layer": 6,
+    "cosine": 0.3695320785045624,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.8,
+    "ba_en_bn": 0.76,
+    "ba_bn_en": 0.84,
+    "transfer_mean": 0.8
+  },
+  {
+    "layer": 7,
+    "cosine": 0.39980998635292053,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.8,
+    "ba_en_bn": 0.88,
+    "ba_bn_en": 0.88,
+    "transfer_mean": 0.88
+  },
+  {
+    "layer": 8,
+    "cosine": 0.43773889541625977,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.88,
+    "ba_en_bn": 0.84,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.88
+  },
+  {
+    "layer": 9,
+    "cosine": 0.4508855938911438,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.88,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.9
+  },
+  {
+    "layer": 10,
+    "cosine": 0.39872533082962036,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.88,
+    "ba_en_bn": 0.88,
+    "ba_bn_en": 0.96,
+    "transfer_mean": 0.9199999999999999
+  },
+  {
+    "layer": 11,
+    "cosine": 0.3983849287033081,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.88,
+    "ba_en_bn": 0.92,
+    "ba_bn_en": 0.96,
+    "transfer_mean": 0.94
+  },
+  {
+    "layer": 12,
+    "cosine": 0.4543074071407318,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.88,
+    "ba_bn_en": 1.0,
+    "transfer_mean": 0.94
+  },
+  {
+    "layer": 13,
+    "cosine": 0.5419625639915466,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.88,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.9
+  },
+  {
+    "layer": 14,
+    "cosine": 0.6211339235305786,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.96,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.94
+  },
+  {
+    "layer": 15,
+    "cosine": 0.6589661240577698,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.94
+  },
+  {
+    "layer": 16,
+    "cosine": 0.6840915083885193,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.88,
+    "transfer_mean": 0.9199999999999999
+  },
+  {
+    "layer": 17,
+    "cosine": 0.7013069987297058,
+    "ba_en_en": 0.88,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.92,
+    "ba_bn_en": 0.88,
+    "transfer_mean": 0.9
+  },
+  {
+    "layer": 18,
+    "cosine": 0.8061342239379883,
+    "ba_en_en": 0.88,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.92,
+    "ba_bn_en": 0.88,
+    "transfer_mean": 0.9
+  },
+  {
+    "layer": 19,
+    "cosine": 0.8253095746040344,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.88,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.94
+  },
+  {
+    "layer": 20,
+    "cosine": 0.7965813875198364,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.92,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.92
+  },
+  {
+    "layer": 21,
+    "cosine": 0.7769898772239685,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.96,
+    "transfer_mean": 0.96
+  },
+  {
+    "layer": 22,
+    "cosine": 0.7281052470207214,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.96,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.96,
+    "transfer_mean": 0.96
+  },
+  {
+    "layer": 23,
+    "cosine": 0.6830282211303711,
+    "ba_en_en": 0.96,
+    "ba_bn_bn": 0.96,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.96,
+    "transfer_mean": 0.96
+  },
+  {
+    "layer": 24,
+    "cosine": 0.5841882824897766,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.96,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.96,
+    "transfer_mean": 0.96
+  },
+  {
+    "layer": 25,
+    "cosine": 0.4975815713405609,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.88,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.92,
+    "transfer_mean": 0.94
+  },
+  {
+    "layer": 26,
+    "cosine": 0.3626028299331665,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.92,
+    "ba_en_bn": 0.96,
+    "ba_bn_en": 0.96,
+    "transfer_mean": 0.96
+  },
+  {
+    "layer": 27,
+    "cosine": 0.3082808554172516,
+    "ba_en_en": 0.92,
+    "ba_bn_bn": 0.84,
+    "ba_en_bn": 0.76,
+    "ba_bn_en": 0.84,
+    "transfer_mean": 0.8
+  }
+]

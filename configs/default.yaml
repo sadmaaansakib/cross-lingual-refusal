@@ -1,0 +1,34 @@
+project:
+  name: cross-lingual-refusal-directions
+  seed: 42
+
+model:
+  model_id: Qwen/Qwen2.5-7B-Instruct
+  torch_dtype: bfloat16
+  device_map: auto
+  trust_remote_code: false
+  revision: main
+
+paths:
+  dataset: data/processed/prompts.csv
+  output_dir: results
+  activation_dir: activations
+
+extraction:
+  batch_size: 2
+  max_length: 512
+  pooling: last_nonpad
+  save_dtype: float32
+  include_embedding_layer: false
+
+analysis:
+  primary_metric: balanced_accuracy
+  bootstrap_samples: 1000
+  min_examples_per_group: 4
+  selected_layer: null
+  selected_position: null
+
+safety:
+  approved_dataset_only: true
+  allow_generation: false
+  restricted_data_notice: "Use institutionally approved safety benchmarks; do not add operational harmful instructions."

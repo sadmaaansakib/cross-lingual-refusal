@@ -1,0 +1,82 @@
+﻿# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-log.txt
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# ── Virtual environments ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Large binary artifacts (model activations) ───────────────────────────────
+activations/*.npy
+activations/*.manifest.json
+activations/*.metadata.jsonl
+!activations/.gitkeep
+
+# ── Model weights ────────────────────────────────────────────────────────────
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# ── Data – processed/sensitive ───────────────────────────────────────────────
+data/processed/prompts.csv
+data/raw/prompts_corrected.csv
+!data/raw/prompts_template.csv
+!data/**/.gitkeep
+
+# ── Results – large / generated ──────────────────────────────────────────────
+results/figures/*.png
+results/figures/*.pdf
+results/figures/*.svg
+!results/figures/.gitkeep
+results/logs/
+!results/logs/.gitkeep
+
+# ── OS-generated ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Secrets / credentials ────────────────────────────────────────────────────
+.env
+.env.*
+secrets.yaml
+*.pem
+*.key
+
+# ── Distribution / archive ───────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tgz
+
+# ── Old nested source folder from zip extraction ──────────────────────────────
+cross_lingual_refusal-*/
+
+# ── Direction .npy files in results ──────────────────────────────────────────
+results/directions/*.npy

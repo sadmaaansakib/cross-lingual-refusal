@@ -1,0 +1,21 @@
+{
+  "layer": 2,
+  "cosine_english_bangla": 0.14984315633773804,
+  "english_direction_on_english": {
+    "balanced_accuracy": 0.92,
+    "roc_auc": 0.984
+  },
+  "english_direction_on_bangla": {
+    "balanced_accuracy": 0.72,
+    "roc_auc": 0.7807999999999999
+  },
+  "bangla_direction_on_bangla": {
+    "balanced_accuracy": 0.84,
+    "roc_auc": 0.8704000000000001
+  },
+  "bangla_direction_on_english": {
+    "balanced_accuracy": 0.8,
+    "roc_auc": 0.8815999999999999
+  },
+  "note": "Use validation for layer selection and test only after freezing the selection rule."
+}

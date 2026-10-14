@@ -1,0 +1,15 @@
+{
+  "source_stem": "Qwen2.5-7B-Instruct_en_train",
+  "target_stem": "Qwen2.5-7B-Instruct_en_validation",
+  "fit_layer": 2,
+  "mismatch_layer": 15,
+  "matched_layer_score": {
+    "balanced_accuracy": 0.96,
+    "roc_auc": 0.9935999999999999
+  },
+  "mismatched_layer_score": {
+    "balanced_accuracy": 0.96,
+    "roc_auc": 0.9856
+  },
+  "note": "matched_layer_score should clearly exceed mismatched_layer_score. If they are similar, apparent transfer may not be tied to a layer-specific representation."
+}

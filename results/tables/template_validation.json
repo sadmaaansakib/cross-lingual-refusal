@@ -1,0 +1,26 @@
+{
+  "rows": 4,
+  "pairs": 4,
+  "by_split_label": {
+    "train": {
+      "harmless": 1,
+      "harmful": 1
+    },
+    "validation": {
+      "harmless": 1,
+      "harmful": 1
+    }
+  },
+  "categories": [
+    "approved_safety_category",
+    "benign_general",
+    "benign_science"
+  ],
+  "errors": [],
+  "warnings": [
+    "Placeholder prompts remain in the dataset",
+    "Placeholder Bangla translations remain in the dataset",
+    "Some translations are not marked human_verified"
+  ],
+  "ok": true
+}

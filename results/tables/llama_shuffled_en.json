@@ -1,0 +1,20 @@
+{
+  "source_stem": "Meta-Llama-3-8B-Instruct_en_train",
+  "target_stem": "Meta-Llama-3-8B-Instruct_en_validation",
+  "layer": 23,
+  "num_permutations": 1000,
+  "seed": 42,
+  "balanced_accuracy": {
+    "mean": 0.50292,
+    "std": 0.1541877868055703,
+    "p2_5": 0.2,
+    "p97_5": 0.8
+  },
+  "note": "The correctly labeled direction's transfer score (from analyze_directions.py / compare_languages.py) should clear this distribution's upper percentile to be considered evidence of real harmfulness-related structure rather than an estimator artifact.",
+  "roc_auc": {
+    "mean": 0.5037328,
+    "std": 0.20427744027219452,
+    "p2_5": 0.12960000000000002,
+    "p97_5": 0.87368
+  }
+}

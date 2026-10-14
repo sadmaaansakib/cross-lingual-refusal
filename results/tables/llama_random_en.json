@@ -1,0 +1,20 @@
+{
+  "target_stem": "Meta-Llama-3-8B-Instruct_en_validation",
+  "layer": 23,
+  "hidden_size": 4096,
+  "num_directions": 1000,
+  "seed": 42,
+  "balanced_accuracy": {
+    "mean": 0.4979200000000001,
+    "std": 0.10750476082481185,
+    "p2_5": 0.28,
+    "p97_5": 0.72
+  },
+  "note": "Compare an observed direction's balanced accuracy / AUC against this null distribution's upper percentile rather than against 0.5 alone; finite-sample median-split scoring can be biased away from chance.",
+  "roc_auc": {
+    "mean": 0.4972448,
+    "std": 0.1374671238986253,
+    "p2_5": 0.23996,
+    "p97_5": 0.76164
+  }
+}

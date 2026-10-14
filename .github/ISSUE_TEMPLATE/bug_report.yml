@@ -1,0 +1,33 @@
+﻿---
+name: Bug Report
+about: Report a reproducibility failure or incorrect output
+title: "[BUG] "
+labels: bug
+assignees: ''
+---
+
+## Describe the Bug
+A clear and concise description of what the bug is.
+
+## Steps to Reproduce
+```bash
+# Exact commands run
+```
+
+## Expected Behavior
+What you expected to happen.
+
+## Actual Output / Error
+```
+# Paste the full stack trace or error message here
+```
+
+## Environment
+- OS: [e.g. Ubuntu 22.04]
+- Python version: [e.g. 3.11.4]
+- PyTorch version: [e.g. 2.3.0]
+- Transformers version: [e.g. 4.45.0]
+- GPU: [e.g. A100 80 GB]
+
+## Additional Context
+Add any other context about the problem here.
